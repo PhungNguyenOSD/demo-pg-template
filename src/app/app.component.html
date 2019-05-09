@@ -1,0 +1,18 @@
+<enl-header-template
+    [logoImage] = "logoImage"
+    [color] = "color"
+    [menuItems] = "menuItems" 
+    [backgroundColor]="'#f1f1f1'"
+    [logoUrl]="homeUrl"
+    [userDropdown] = "userDropdown">
+</enl-header-template>
+<enl-side-bar-template 
+    [backgroundColor]="'#f1f1f1'" 
+    [color] = "color"
+    [sideBarItems] = "sideBarItems">
+</enl-side-bar-template>
+<enl-login-template 
+    [title]="'Login Admin'" 
+    (userLogin)="onLogin($event)">
+</enl-login-template>
+<enl-footer-template id="footer">&copy; Copyright 2019 Phung with Love</enl-footer-template>
